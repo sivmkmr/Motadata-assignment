@@ -13,10 +13,13 @@ http://localhost:9191/motadata/create-product
 ~~~
 [
   {
-    "name": "Macbook",
-    "category": "Laptop",
+    "name": "MacBook",
+    "category": "Electronics",
     "price": 1.1,
-    "stock": 2
+    "stock": 2,
+    "brand": "Apple",
+    "modelName": "Macbook pro",
+    "warrantyInMonths": 12
   }
 ]
 ~~~
@@ -27,12 +30,15 @@ http://localhost:9191/motadata/update-product/?id=1
 ~~~
 
 ~~~
-{
-  "name": "HP Pavilion",
-  "category": "laptop",
-  "price": 1.2,
-  "stock": 3
-}
+  {
+    "name": "MacBook",
+    "category": "Electronics",
+    "price": 1.1,
+    "stock": 2,
+    "brand": "Apple",
+    "modelName": "Macbook pro",
+    "warrantyInMonths": 12
+  }
 ~~~
 
 ### Get Product By Id
