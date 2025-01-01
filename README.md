@@ -8,7 +8,7 @@
       spring.datasource.username = dataBaseUserName
       spring.datasource.password = dataBasePassword
  
-## 	3.	Uncomment the following lines, then run the application. Once the app is running, comment these lines again:
+## 	3.	Uncomment the following lines in MotadataApplication.java file (main method), then run the application. Once the app is running, comment these lines again:
   
     @Autowired
     private ProductRepository repository;
@@ -29,7 +29,7 @@
     repository.saveAll(products);
     }
     
-##	4.	Hit the Swagger API to test CRUD operations as mentioned in the README.md file on GitHub:
+##	4.	Hit the Swagger API to test CRUD operations as mentioned Below:
 
 ~~~
 http://localhost:9191/motadata/swagger-ui/index.html#/
